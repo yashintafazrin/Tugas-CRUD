@@ -50,7 +50,7 @@ if(isset($_GET['info'])){
                 <td><?php echo $data['harga_produk']; ?></td>
                 <td><?php echo $data['satuan']; ?></td>
                 <td><?php echo $data['kategori']; ?></td>
-                <td><?php echo $data['url_gambar']; ?></td>
+                <td><img src="<?php echo $data['url_gambar']; ?>style="width: 300px; alt=""></td>
                 <?php 
                 if ($data['stok_awal'] < 5) {
                     echo "<td style = 'background : red; color : white; text-align : center'>".$data['stok_awal']."</td>";
