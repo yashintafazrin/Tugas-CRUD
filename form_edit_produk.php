@@ -60,7 +60,7 @@ foreach ($hasil as $data){
         </tr>
         <tr>
         <td style="font-size: 15px; width:25%">URL Gambar</td>
-            <td><input type="url" class="form-control" name="url_gambar" value="<?php echo $data['url_gambar']; ?>"></td>
+            <td><input type="text" class="form-control" name="url_gambar" value="<?php echo $data['url_gambar']; ?>"></td>
         </tr>
         <tr>
             <td style="font-size: 15px; width:25%">Stok Awal</td>
